@@ -3,8 +3,8 @@ Part 1:
 ![image](https://github.com/githubMasterSpark/cse15l-lab-reports/assets/147002814/2cd35b11-4c26-41fd-a460-004b03a67094)
 ![image](https://github.com/githubMasterSpark/cse15l-lab-reports/assets/147002814/efb6a0a6-d68f-40bf-b758-8af005f307e8)
 
-1. dfaw
-2. vdsf
+1. The method in the code that is called is handleRequest. This method takes an URI and depending on the input, displays or concatenates other strings into a signular string. Through this specific request, the empty string was concatenated with a string containing with "1. Hello" before generating a new line for use with the next concatenation. 
+2. The method in the code that is called is handleRequest. This method takes an URI and depending on the input, displays or concatenates other strings into a signular string. Through this specific request, the existing string was concatenated with a string containing with "2. Goodbye" before generating a new line for use with the next concatenation. 
 
 --
 
