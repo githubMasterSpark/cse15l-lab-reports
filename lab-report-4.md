@@ -2,13 +2,13 @@ Step 4
 
 ![image](https://github.com/githubMasterSpark/cse15l-lab-reports/assets/147002814/2364244e-9c9f-4677-b6cd-cd8c5f421ac4)
 
-I logged into ieng6, using keys in order to automatically log in without having to type in my password.
+I logged into ieng6 by typing the command ```ssh cs15lfa23qc@ieng6.ucsd.edu```, using keys that I had set up prior in order to automatically log in without having to type in my password.
 
 Step 5
 
 ![image](https://github.com/githubMasterSpark/cse15l-lab-reports/assets/147002814/4ebad2bb-ed15-4669-b10b-b393e7770ec5)
 
-Using the ```SSH``` URL, I cloned a fork of the repository from my Github account.
+By typing the command ```git clone git@github.com:githubMasterSpark/lab7edit2.git```, I cloned a fork of the repository from my Github account.
 
 Step 6
 
