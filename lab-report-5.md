@@ -1,20 +1,30 @@
 Part 1:
 
-1. a
+Subpart 1. I've been having some weird issues with my code. The program is supposed to reverse an array's contents. For some reason, it's stopping near the middle of the array and not properly iterating through the entire array. I think there's an issue with my reverseInPlace method, particularly the for loop, but I'm not sure what's going on with the loop to cause such an issue.
 
-   TEST
+![image](https://github.com/githubMasterSpark/cse15l-lab-reports/assets/147002814/80848f1a-bc74-4147-a76c-c762f14bd11f)
+![image](https://github.com/githubMasterSpark/cse15l-lab-reports/assets/147002814/cc563dd2-81ee-438a-ad79-6cf412989bed)
+![image](https://github.com/githubMasterSpark/cse15l-lab-reports/assets/147002814/c232bda0-ecff-456f-917b-0213d39bb719)
    
-2. b
-
-   TEST
+Subpart 2. Hello. There could be several different reasons behind why it is seemingly stopping in the middle. You could implement some temporary debugging lines to check what's wrong, such as `System.out.println(<your arguments here>)` along with an implementation of a `toString()` method in order to determine the potential issue. Have you also attempted to manually draw out what your code is doing?
  
-3. d
+Subpart 3. This was helpful in discerning what exactly was going on, and I can tell that the data being called was already overwritten previously, causing attempts to grab information from the original array to fail. In this scenario, since `arr[0]` and `arr[1]` were already overwritten, `arr[3]` and `arr[4]` would attempt to grab the new `arr[0]` and `arr[1]` values as opposed to the original values.
 
-   TEST
+![image](https://github.com/githubMasterSpark/cse15l-lab-reports/assets/147002814/ee6ba052-3fa6-4593-af85-a5c8499e62df)
+
    
-4. e
+Subpart 4. 
 
-   TEST
+Directory Structure: ![image](https://github.com/githubMasterSpark/cse15l-lab-reports/assets/147002814/feb95e02-4e76-4f49-8de5-2575cbb58197)
+
+Contents: seen in Subpart 1.
+
+Command Line: `bash test.sh` (Contents found in Subpart 1).
+
+Fix: The part that should be edited should be Line 7; where `int i` should only loop until `i < arr.length / 2`. In addition, there should be a line before that copies the original element to a temporary variable and a line after that overwrites the element that overwrote `arr[i]` with the temporary variable. 
+
+![image](https://github.com/githubMasterSpark/cse15l-lab-reports/assets/147002814/b3c21b4d-3854-4371-bb3e-8b786930f4c4)
+
 
 ----------
 
