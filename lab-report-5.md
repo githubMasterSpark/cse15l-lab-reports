@@ -13,9 +13,12 @@ Subpart 3. This was helpful in discerning what was going on, and I found that I 
    
 Subpart 4. 
 
-Directory Structure: ![image](https://github.com/githubMasterSpark/cse15l-lab-reports/assets/147002814/feb95e02-4e76-4f49-8de5-2575cbb58197)
+Directory Structure:
 
-Contents: 
+![image](https://github.com/githubMasterSpark/cse15l-lab-reports/assets/147002814/feb95e02-4e76-4f49-8de5-2575cbb58197)
+
+Contents before fix: 
+
 ![image](https://github.com/githubMasterSpark/cse15l-lab-reports/assets/147002814/ef16db80-10d9-4672-99ee-c400402aa2cf)
 ![image](https://github.com/githubMasterSpark/cse15l-lab-reports/assets/147002814/cc563dd2-81ee-438a-ad79-6cf412989bed)
 ![image](https://github.com/githubMasterSpark/cse15l-lab-reports/assets/147002814/c232bda0-ecff-456f-917b-0213d39bb719)
